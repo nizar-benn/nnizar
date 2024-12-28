@@ -1,0 +1,85 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+ }
+
+.navbar ul{
+list-style-type: none;
+overflow: hidden;
+}
+.navbar a{
+ color: black;
+ text-decoration: none;
+padding: 50px;
+
+}
+.navbar{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.navbar li{
+    float: right;
+}
+#title h2{
+    text-align: center; 
+}
+.navbar img{
+    width: 300px;
+
+}
+#title{
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#title input{
+   padding: 5px;
+    width: 250PX;
+    max-width: 400px;
+    display: block;
+    margin-left: 630px;
+    
+}
+#title input.bmt{
+   background-color: #f1c40f;
+    border: 0; 
+    max-width: 150px;
+    height: 30px;
+    margin: 15px ;
+    cursor: pointer;
+    margin-left: 680px;
+    
+}
+
+#vdo{
+    text-align: center;
+    
+}
+
+#featurs .icon {
+    width: 20px;
+   height: 20px;
+   align-items: center;
+   justify-content: left;
+   
+}
+
+.product{
+    max-width: 300px;
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+   flex-direction: row;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 600px;
+}
+.product button{
+    background-color: #f1c40f;
+   width: 100px;
+    height: 30px;
+    margin: 100px;
+    cursor: pointer;
+    border: none;
+    
+}
